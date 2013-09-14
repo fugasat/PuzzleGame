@@ -26,13 +26,16 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Lg3-5N-ztL" firstAttribute="top" secondItem="3" secondAttribute="top" constant="256" id="Ega-aB-FJd"/>
+                            <constraint firstItem="Lg3-5N-ztL" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="4Ls-kg-WHj"/>
                             <constraint firstItem="NKq-Q7-99l" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="T0F-2N-2Oo"/>
-                            <constraint firstItem="Lg3-5N-ztL" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="bFU-IC-ihf"/>
-                            <constraint firstItem="Lg3-5N-ztL" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="gEa-zA-4v6"/>
+                            <constraint firstItem="Lg3-5N-ztL" firstAttribute="top" secondItem="3" secondAttribute="top" constant="261" id="aRO-NX-Ycx"/>
+                            <constraint firstItem="Lg3-5N-ztL" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="rGg-dV-fpL"/>
                             <constraint firstItem="NKq-Q7-99l" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="wlP-Nf-Ear"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="playView" destination="Lg3-5N-ztL" id="TVg-jd-CNO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
@@ -44,6 +47,9 @@
         </class>
         <class className="PzViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/PzViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="PlayView" candidateClass="UIImageView"/>
+            </relationships>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

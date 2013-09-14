@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PzConstraints.h"
 
 @interface PzViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIImageView *playView;
 
 @end

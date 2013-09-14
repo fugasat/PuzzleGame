@@ -23,6 +23,8 @@
 		60DE5F5D17E480CC006D06FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60DE5F3817E480CB006D06FA /* Foundation.framework */; };
 		60DE5F6517E480CC006D06FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60DE5F6317E480CC006D06FA /* InfoPlist.strings */; };
 		60DE5F6817E480CC006D06FA /* PuzzleGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DE5F6717E480CC006D06FA /* PuzzleGameTests.m */; };
+		60DE5F7517E4B850006D06FA /* PzShapeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DE5F7217E4B850006D06FA /* PzShapeModel.m */; };
+		60DE5F7617E4B850006D06FA /* PzShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DE5F7417E4B850006D06FA /* PzShapeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,11 @@
 		60DE5F6417E480CC006D06FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		60DE5F6617E480CC006D06FA /* PuzzleGameTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PuzzleGameTests.h; sourceTree = "<group>"; };
 		60DE5F6717E480CC006D06FA /* PuzzleGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PuzzleGameTests.m; sourceTree = "<group>"; };
+		60DE5F7117E4B84F006D06FA /* PzShapeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PzShapeModel.h; sourceTree = "<group>"; };
+		60DE5F7217E4B850006D06FA /* PzShapeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PzShapeModel.m; sourceTree = "<group>"; };
+		60DE5F7317E4B850006D06FA /* PzShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PzShapeView.h; sourceTree = "<group>"; };
+		60DE5F7417E4B850006D06FA /* PzShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PzShapeView.m; sourceTree = "<group>"; };
+		60DE5F7717E4B8CB006D06FA /* PzConstraints.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PzConstraints.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +124,11 @@
 		60DE5F3C17E480CB006D06FA /* PuzzleGame */ = {
 			isa = PBXGroup;
 			children = (
+				60DE5F7717E4B8CB006D06FA /* PzConstraints.h */,
+				60DE5F7117E4B84F006D06FA /* PzShapeModel.h */,
+				60DE5F7217E4B850006D06FA /* PzShapeModel.m */,
+				60DE5F7317E4B850006D06FA /* PzShapeView.h */,
+				60DE5F7417E4B850006D06FA /* PzShapeView.m */,
 				60DE5F4517E480CB006D06FA /* PzAppDelegate.h */,
 				60DE5F4617E480CB006D06FA /* PzAppDelegate.m */,
 				60DE5F4E17E480CB006D06FA /* MainStoryboard.storyboard */,
@@ -274,6 +286,8 @@
 				60DE5F4317E480CB006D06FA /* main.m in Sources */,
 				60DE5F4717E480CB006D06FA /* PzAppDelegate.m in Sources */,
 				60DE5F5317E480CB006D06FA /* PzViewController.m in Sources */,
+				60DE5F7517E4B850006D06FA /* PzShapeModel.m in Sources */,
+				60DE5F7617E4B850006D06FA /* PzShapeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
