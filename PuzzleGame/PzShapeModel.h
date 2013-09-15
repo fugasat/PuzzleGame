@@ -16,6 +16,8 @@
     CGRect _location;
     CGPoint _move;
     CGPoint _moveRange;
+    int groupNo;
+    int type;
 @private
 }
 
@@ -23,6 +25,8 @@
 @property (assign, nonatomic) CGRect location;
 @property (assign, nonatomic) CGPoint move;
 @property (assign, nonatomic) CGPoint moveRange;
+@property (assign, nonatomic) int groupNo;
+@property (assign, nonatomic) int type;
 
 
 @end

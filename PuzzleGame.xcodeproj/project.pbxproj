@@ -399,7 +399,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PuzzleGame/PuzzleGame-Prefix.pch";
 				INFOPLIST_FILE = "PuzzleGame/PuzzleGame-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -410,7 +412,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PuzzleGame/PuzzleGame-Prefix.pch";
 				INFOPLIST_FILE = "PuzzleGame/PuzzleGame-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -468,6 +472,7 @@
 				60DE5F6D17E480CC006D06FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60DE5F6E17E480CC006D06FA /* Build configuration list for PBXNativeTarget "PuzzleGameTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +481,7 @@
 				60DE5F7017E480CC006D06FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
