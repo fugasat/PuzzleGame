@@ -7,13 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "PzShapeView.h"
 
 @interface PzShapeModel : NSObject
 {
 @public
 @protected
-    UIView* _view;
+    PzShapeView* _view;
     CGRect _location;
+    CGPoint _offset;
     CGPoint _move;
     CGPoint _moveRange;
     int groupNo;
@@ -21,8 +23,9 @@
 @private
 }
 
-@property (strong, nonatomic) UIView* view;
+@property (strong, nonatomic) PzShapeView* view;
 @property (assign, nonatomic) CGRect location;
+@property (assign, nonatomic) CGPoint offset;
 @property (assign, nonatomic) CGPoint move;
 @property (assign, nonatomic) CGPoint moveRange;
 @property (assign, nonatomic) int groupNo;
